@@ -1,0 +1,9 @@
+export default {
+  input: 'index.js', 
+  output: {
+    file: 'dist/bundle.js',
+    format: 'iife', 
+    sourcemap: true,
+  },
+  plugins: []
+};
